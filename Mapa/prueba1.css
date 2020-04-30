@@ -1,0 +1,135 @@
+#Ports { fill: #aaffee; }
+#BaixMaestrat { fill: #aaffee; }
+#AltMaestrat { fill: #aaffee; }
+#Alcalaten { fill: #aaffee; }
+#PlanaAlta { fill: #aaffee; }
+#PlanaBaixa { fill: #aaffee; }
+#AltMillars { fill: #aaffee; }
+#AltPalancia { fill: #aaffee; }
+
+#RacoDAdemus { fill: #ffccaa; }
+#Serrans { fill: #ffccaa; }
+#CampDeTuria { fill: #ffccaa; }
+#CampDeMorvedre { fill: #ffccaa; }
+#HortaNord { fill: #ffccaa; }
+#Valencia { fill: #ffccaa; }
+#HortaOest { fill: #ffccaa; }
+#HortaSud { fill: #ffccaa; }
+#PlanaDUtielRequena { fill: #ffccaa; }
+#FoiaDeBunyol { fill: #ffccaa; }
+#VallDeCofrents { fill: #ffccaa; }
+#CanalDeNavarres { fill: #ffccaa; }
+#RiberaAlta { fill: #ffccaa; }
+#RiberaBaixa { fill: #ffccaa; }
+#Costera { fill: #ffccaa; }
+#VallDAlbaida { fill: #ffccaa; }
+#Safor { fill: #ffccaa; }
+
+#AltVinalopo { fill: #e9afdd; }
+#Alcoia { fill: #e9afdd; }
+#Comtat { fill: #e9afdd; }
+#MarinaAlta { fill: #e9afdd; }
+#MarinaBaixa { fill: #e9afdd; }
+#VinalopoMitja { fill: #e9afdd; }
+#Alacanti { fill: #e9afdd; }
+#BaixVinalopo { fill: #e9afdd; }
+#VegaBaja { fill: #e9afdd; }
+
+.p {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.map svg {
+  height: auto;
+  width: 550px;
+  margin: 0 auto;
+  display: block;
+}
+
+.map g {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 0;
+}
+
+.map path:hover {
+  fill: #fc0 !important;
+  cursor: help;
+}
+
+.info_panel {
+  background-color: rgba(255,255,255, .8);
+  padding: 5px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  border: 1px solid #333;
+  color: #333;
+  white-space: nowrap;
+}
+
+.info_panel::first-line {
+  font-weight: bold;
+}
+
+.info_panel2 {
+  background-color: rgba(255,255,255, .8);
+  padding: 5px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  border: 1px solid #333;
+  color: #333;
+  white-space: nowrap;
+}
+
+.info_panel2::first-line {
+  font-weight: bold;
+}
+
+#marco_principal {
+	align:right;
+	position:absolute;
+	padding: 30%;
+	border:1px solid black;"
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#bloque .left, #bloque .right {
+	float: left;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
