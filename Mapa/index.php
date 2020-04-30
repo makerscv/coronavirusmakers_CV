@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <title>Document</title>
-   <link rel="STYLESHEET" type="text/css" href="prueba1.css"></link>
+   <link rel="STYLESHEET" type="text/css" href="css/style.css"></link>
    <script type="text/javascript" src="js/jquery-3.5.0.js"></script>
    <script type="text/javascript" src="js/prueba1.js"></script>
 </head>
